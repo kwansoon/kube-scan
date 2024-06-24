@@ -10,7 +10,8 @@ COPY yarn.lock .
 RUN yarn
 # copy app files, build and package
 COPY . /app
-
+##
+##
 ENV PORT 8080
 ENV PKG_CACHE_PATH .pkg-cache-upx
 
